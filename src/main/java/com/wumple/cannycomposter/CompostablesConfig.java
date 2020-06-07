@@ -3,8 +3,8 @@ package com.wumple.cannycomposter;
 import java.util.HashMap;
 
 import com.electronwill.nightconfig.core.Config;
-import com.wumple.util.config.ConfigUtil;
-import com.wumple.util.config.MatchingConfig;
+import com.wumple.cannycomposter.util.config.ConfigUtil;
+import com.wumple.cannycomposter.util.config.MatchingConfig;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;

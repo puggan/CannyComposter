@@ -1,7 +1,7 @@
 package com.wumple.cannycomposter.things;
 
 import com.wumple.cannycomposter.ConfigManager;
-import com.wumple.util.xcomposter.XBoneMealItem;
+import com.wumple.cannycomposter.util.xcomposter.XBoneMealItem;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.block.material.Material;

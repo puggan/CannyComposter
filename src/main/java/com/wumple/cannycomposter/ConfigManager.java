@@ -5,7 +5,7 @@ import java.nio.file.Path;
 import com.electronwill.nightconfig.core.Config;
 import com.electronwill.nightconfig.core.file.CommentedFileConfig;
 import com.electronwill.nightconfig.core.io.WritingMode;
-import com.wumple.util.config.ConfigUtil;
+import com.wumple.cannycomposter.util.config.ConfigUtil;
 
 import net.minecraftforge.common.ForgeConfigSpec;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

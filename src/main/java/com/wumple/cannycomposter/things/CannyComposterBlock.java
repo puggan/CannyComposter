@@ -3,15 +3,13 @@ package com.wumple.cannycomposter.things;
 import java.util.Random;
 
 import com.wumple.cannycomposter.ConfigManager;
-import com.wumple.util.misc.TimeUtil;
-import com.wumple.util.xcomposter.XComposterBlock;
+import com.wumple.cannycomposter.util.xcomposter.XComposterBlock;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.particles.ParticleTypes;
 import net.minecraft.util.Direction;
 import net.minecraft.util.ResourceLocation;
@@ -139,7 +137,7 @@ public class CannyComposterBlock extends XComposterBlock
 	{
 		int randomTime = ConfigManager.General.cookMaxTime.get() - ConfigManager.General.cookMinTime.get(); 
 		int seconds = ConfigManager.General.cookMaxTime.get() + worldIn.getRandom().nextInt(randomTime);
-		int ticks = Math.max(1, TimeUtil.TICKS_PER_SECOND * seconds);
+		int ticks = Math.max(1, TICKS_PER_SECOND * seconds);
 		return ticks;
 	}
 }
