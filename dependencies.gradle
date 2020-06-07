@@ -26,7 +26,6 @@ dependencies {
     // Real examples
     // compile 'com.mod-buildcraft:buildcraft:6.0.8:dev'  // adds buildcraft to the dev env
     // compile 'com.googlecode.efficient-java-matrix-library:ejml:0.24' // adds ejml to the dev env
-    compile files('dep/wumpleutil-1.15.2-3.6.0.jar')
     //compile fg.deobf('com.wumple.util:wumpleutil:3.6.0') {
     //    transitive = false;
     //}
